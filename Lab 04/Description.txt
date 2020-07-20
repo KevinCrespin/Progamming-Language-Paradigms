@@ -1,0 +1,13 @@
+For this assignment, you may only use what you've learned regarding Haskell in our class. You may not use any built-in functions or libraries that do all the work for you, should they exist. Add appropriate type declarations for both of the functions below.
+
+1) 7pts Create a function called addtolist that takes an Int and adds it to each list in a list of lists of Ints. That is, addtolist 0 [[1],[2],[3]] will return [[0,1], [0,2], [0,3]]. Use recursion.
+
+2) 3pts Create a function called powerset that uses addtolist to take a list and return its powerset. A powerset is the set of all subsets of a set, including the empty set, and itself. So the powerset of [1,2,3] is [[], [1], [2], [3], [1,2], [1,3], [2,3], [1,2,3]]. Use recursion. You must use addtolist (this is how I keep people from googling and copying). Note:
+
+[1,2], is the same subset as [2,1].
+There are no repeated subsets in a power set. 
+Don't duplicate the same element in a set unless the original list has duplicates of that number.
+The sublists can be in any order.
+Both functions must handle empty list as an argument. Submit a Haskell file (a file with the .hs extension) and a screenshot of your using both of the above functions on a test case (you can use the examples I provided as test cases). Your Haskell file must compile, or you will receive 3 points max.
+
+ 

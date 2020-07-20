@@ -1,0 +1,16 @@
+2pts) Create a function that adds two Ints together. Then create a function, using partial application of the first, that adds a number to 10. 
+
+2pts) Using partial application/currying, create a function that checks if a Char is a lowercase letter
+
+2pts) Write a function like zipWith, except that it takes 3 lists and a function that takes 3 parameters, and returns a list with the function applied to each corresponding element in the 3 lists
+
+2pts) Write a function that takes a function (Int -> Int) and an Int and returns (Int, Int), where the first element is the Int
+without the function applied to it, and the second is the result  of applying the function to the Int. That is, if we call the function toTuple, toTuple (+3) 6 should return (6, 9)
+
+2pts) Using map and the function you just wrote, write a function that takes a list of Ints and a function (Int -> Int) and returns a new list of tuples, with the first element being the original element, and the second being the result of the transformation.
+
+e.g. [1,2,3] becomes [(1,1), (2, 4), (3, 9)] if the function passed in returns the square of an element
+
+Upload your Haskell file here
+
+ 

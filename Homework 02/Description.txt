@@ -1,0 +1,29 @@
+Note: Only compilable submissions will be graded.
+
+This assignment is to be done in Python.
+
+1. 2pts) Implement a data type called Student. 
+The student type has four fields, first name, last name, major, and age. 
+
+2. 2pts) Implement a tree node type that has a student as one of its fields. The tree will be a binary search tree on the attribute age.
+
+3. 1 pt) Write a comma separated file in which each line (ended by new line character) contains a student, with its fields separated by commas (hint, use Microsoft Exel, save as .csv)
+
+4. Write a program that will:
+
+a. 5pts) Read the comma separated file and produce a list of students. You can hard-code the filename inside your Haskell code.
+
+b. 5pts) Construct a binary search tree using the tree nodes you created, according to the ages of students.
+
+c. 3pts) Write a function that will search through the tree to see if it contains a student of age x. It returns true if there is, otherwise it 
+returns false.
+
+Running the Program:
+
+A user can call the program from the command line.
+
+The program takes the file, creates a tree, searches it, and prints True or False. Use hard-coded values for the file, student name, etc.
+
+E.C. (5pts) Allow the user to pass in the filename using command line arguments. 
+
+E.C. (5pts) Write a Python function that does a in-order traversal of your binary tree of students and stores the results in the form of a string (first name, last name, major, and age),  in a list.  The list should be sorted by age.

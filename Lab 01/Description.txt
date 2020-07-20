@@ -1,0 +1,17 @@
+Install the Haskell compiler on your computer as instructed here: https://www.haskell.org/platform/
+
+3pts) Open the ghci at your prompt, and enter at least 5 different arithmetic operations, each using a different combination of arithmetic operators. Take a screen shot of your prompt window and submit.
+
+3pts) Enter three different lists (that you make up), with at least one of numbers and one of characters (you can use a string), and for each of those, concatenate them to yet another list of the same type. You'll be making 6 lists total.  Take a screen shot of your prompt window and submit.
+
+4pts) Write a Haskell script with functions to compute (don't just compute it, write a function that you will call in ghci to get the answer):
+
+The area of a circle (just estimate pi) given the length of the radius,
+
+The square of the length of a hypotenuse of a right triangle given the other two sides
+
+Load the script into your ghci and use them to calculate the area of a circle (you choose the radius) and the length of a hypotenuse (you choose the side lengths)
+
+Take a screen shot of your prompt window and submit.
+
+Submit your script here as well.

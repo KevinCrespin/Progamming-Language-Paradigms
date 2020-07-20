@@ -1,0 +1,25 @@
+1. 2pts)  Convert each tuple to a product of its two elements, using map and a lambda expression.
+
+2. 2pts) Using scanl, write a function that takes a list of Ints and make a list of cumulative sums. 
+
+3. 2pts) Consider this function:
+
+applyThrice :: (Int -> Int) -> Int -> Int
+applyThrice f x = f (f (f x))
+
+Use $ or . to make the second line more readable
+
+4. 2pts) Convert:
+
+isLowerCase :: Char -> Bool
+isLowerCase x = x `elem` ['a' .. 'z']
+
+to point free style
+
+5. 2pts) Pack repeats in a list of Chars into separate lists, resulting in a sorted list of lists: E.g., 
+
+['a', 'a', 'a', 'a', 'b', 'c', 'c', 'a', 
+             'a', 'd', 'e', 'e', 'e', 'e'] becomes
+["aaaaaa","b","cc","d","eeee"]
+
+Use whatever techniques you know so far. (Note, this is a modified version of an online problem, so solutions to that problem, should you Google it, won't work here). Submit your Haskell file here.
